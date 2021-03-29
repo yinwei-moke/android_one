@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/base"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Create 创建数据库"
+        />
+    <Button
+        android:id="@+id/addBase"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="添加baseboot数据库book表数据"
+        />
+    <Button
+        android:id="@+id/updateBase"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="修改baseboot数据库book表数据"
+        />
+    <Button
+        android:id="@+id/deleteBase"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="删除baseboot数据库book表数据"
+        />
+    <Button
+        android:id="@+id/selectBase"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="打印baseboot数据库book表数据在控制台"
+        />
+
+    <Button
+        android:id="@+id/replaceData"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="事务添加数据"
+        />
+
+</LinearLayout>
